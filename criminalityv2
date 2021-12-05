@@ -13,7 +13,7 @@ local btnsssss = serv:Channel("Other")
 --------------------------------------------1----------------------
 btns:Button("Aimlock", function()
  loadstring(game:HttpGet("https://pastebin.com/raw/Tfey2JbA"))()
-    DiscordLib:Notification("Notification", "Prediction 100 Distance 100-1000. HOTKEY Q", "")
+DiscordLib:Notification("Notification", "Prediction 100 Distance 100-1000. HOTKEY Q", "Okay!")
 end)
 
 
@@ -66,7 +66,6 @@ end)
 
 btnsss:Button("Tracers And Names (Clean)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fernandoagoncalves/universal-esp/main/esp.lua", true))()
-
 end)
 
 
@@ -75,7 +74,7 @@ end)
 ---------------------------------------------------------------------
 
 btnssss:Button("Temporal X v2.0.3", function()
-cloadstring(game:HttpGet("https://pastebin.com/raw/w2S8YyDt", true))()
+loadstring(game:HttpGet("https://pastebin.com/raw/w2S8YyDt", true))()
 end)
 
 btnssss:Button("Owl Hub (Right Click)", function()
@@ -86,12 +85,12 @@ btnssss:Button("Esp And Aimbot (Cool Pro Hax)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
 end)
 
-    btnssss:Button("Bliss Hub Esp", function()
+btnssss:Button("Bliss Hub Esp", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Cornyllius/ESPs/main/BlissESP.lua", true))()
 end)
 
-    btnssss:Button("Fates Esp Hub", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+btnssss:Button("Fates Esp Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua"))()
 end)
 
 
@@ -160,5 +159,4 @@ setclipboard("https://v3rmillion.net/showthread.php?tid=1104704")
 DiscordLib:Notification("Notification", "Copied To Clipboard", "Okay!")
 end)
 
-
-
+-- What you doing here? Join the discord 
