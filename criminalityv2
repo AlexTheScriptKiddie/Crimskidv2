@@ -1,0 +1,164 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("Crim Skid V2")
+
+local serv = win:Server("Crimskid V2", "")
+
+local btns = serv:Channel("Personal Best")
+local btnss = serv:Channel("Aimlocks")
+local btnsss = serv:Channel("ESPS")
+local btnssss = serv:Channel("Hubs")
+local btnsssss = serv:Channel("Other")
+
+--------------------------------------------1----------------------
+btns:Button("Aimlock", function()
+ loadstring(game:HttpGet("https://pastebin.com/raw/Tfey2JbA"))()
+    DiscordLib:Notification("Notification", "Prediction 100 Distance 100-1000. HOTKEY Q", "")
+end)
+
+
+btns:Button("FullBright", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vMEADuA2"))()
+end)
+
+btns:Button("Vault + Cash Register Esp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wtpbN7dz"))()
+end)
+--2--
+btnss:Button("Customizable Lock (The One I Use)", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Tfey2JbA"))()
+end)
+
+btnss:Button("My Freinds Lock (OP)", function()
+loadstring(game:HttpGet("https://controlc.com/raw/f34f3bce"))()
+end)
+
+btnss:Button("Rainbow Lock", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/SgTvDfd9"))()
+end)
+
+--3
+------------------------------------------------------------------
+
+btnsss:Button("Simple Box Esp (0x83)", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TcFNCtdU"))()
+end)
+
+btnsss:Button("Name Esp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TcFNCtdU"))()
+end)
+
+btnsss:Button("Chams", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/TcFNCtdU"))()
+end)
+
+btnsss:Button("Vault + Cash Register Esp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wtpbN7dz"))()
+end)
+
+btnsss:Button("Wally Hub Esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/roblox-scripts/main/criminality_esp.lua"))()
+end)
+
+btnsss:Button("Skeleton Esp", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/WQfTkiMW"))()
+end)
+
+btnsss:Button("Tracers And Names (Clean)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fernandoagoncalves/universal-esp/main/esp.lua", true))()
+
+end)
+
+
+--HUBS
+
+---------------------------------------------------------------------
+
+btnssss:Button("Temporal X v2.0.3", function()
+cloadstring(game:HttpGet("https://pastebin.com/raw/w2S8YyDt", true))()
+end)
+
+btnssss:Button("Owl Hub (Right Click)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+btnssss:Button("Esp And Aimbot (Cool Pro Hax)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
+end)
+
+    btnssss:Button("Bliss Hub Esp", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Cornyllius/ESPs/main/BlissESP.lua", true))()
+end)
+
+    btnssss:Button("Fates Esp Hub", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/fatesc/fates-esp/main/main.lua'))()
+end)
+
+
+--OTHERS
+---------------------------------------------------------------------
+
+
+btnsssss:Button("Die", function()
+    game.Players.LocalPlayer.Character.Humanoid:Destroy()
+end)
+    
+btnsssss:Button("Hitbox Expander", function()
+loadstring(game:HttpGet("https://pastebin.com/dfx7Ckee"))()
+end)
+
+btnsssss:Button("FreeCam (Shift + P)", function()
+loadstring(game:HttpGet("https://pastebin.com/1EVWf5mr"))()
+end)
+
+btnsssss:Button("RTX (Laggy for bad pcs)", function()
+loadstring(game:HttpGet("https://pastebin.com/1EVWf5mr"))()
+end)
+
+btnsssss:Button("Freeze Urself", function()
+loadstring(game:HttpGet("https://pastebin.com/CK1xGpBi"))()
+end)
+
+btnsssss:Button("Ctrl Tp (Doesnt Work)", function()
+loadstring(game:HttpGet("https://pastebin.com/mwE1iva5"))()
+end)
+
+btnsssss:Button("Chat Spy", function()
+loadstring(game:HttpGet("https://pastebin.com/ZQzw4tBr"))()
+end)
+
+btnsss:Button("Anti Admins (ENABLE)", function()
+loadstring(game:HttpGet("https://pastebin.com/Xj8TFkqF"))()
+end)
+
+btnsss:Button("Chat Spy", function()
+loadstring(game:HttpGet("https://pastebin.com/Xj8TFkqF"))()
+end)
+--creds
+----------------------------------------------------
+local serv = win:Server("Credits", "")
+
+local creds = serv:Channel("Credits")
+
+creds:Label("Made By Finobe#7650")
+
+creds:Seperator()
+
+creds:Label("Join Our Discord")
+
+creds:Button("Discord Link", function()
+setclipboard("https://discord.gg/2HFPM5pYWP")
+DiscordLib:Notification("Notification", "Copied To Clipboard", "Okay!")
+end)
+
+creds:Seperator()
+
+creds:Label("Made with Discord UI Library")
+
+creds:Button("V3rmillion Link", function()
+setclipboard("https://v3rmillion.net/showthread.php?tid=1104704")
+DiscordLib:Notification("Notification", "Copied To Clipboard", "Okay!")
+end)
+
+
+
